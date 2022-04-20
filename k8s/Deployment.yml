@@ -15,11 +15,11 @@ spec:
     spec:
       containers:
         - name: go-http
-          image: geraldocoosta/go-apresentacao:57
+          image: geraldocoosta/go-apresentacao:58
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
-              containerPort: 8080
+              containerPort: 8085
               protocol: TCP
           resources:
             limits:
